@@ -12,7 +12,6 @@ router.get('/:id', (req, res, next) => {
   const result = users.filter((user) => {
     return user.id === parseInt(req.params.id, 10)
   })
-  console.log(result)
   res.send(result)
 })
 

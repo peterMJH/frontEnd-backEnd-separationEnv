@@ -6,3 +6,22 @@ express generator 사용(json파일을 사용하여 users RestAPI 생성-findAll
 
 front-end: 
 vue cli 사용
+
+### build & start
+
+```
+cd frontEnd-backEnd-separationEnv
+
+cd frontend
+
+npm install
+
+npm run build
+
+cd ../backEnd
+
+npm install
+
+npm start
+```
+
